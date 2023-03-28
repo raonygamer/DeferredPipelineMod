@@ -1,36 +1,7 @@
-# Mod Template
+# Credits of modloader to @ThePixelCoder
+## Deferred Pipeline Mod
 
-## Getting Started
+This mod enables the deferred renderer for minecraft bedrock edition 1.19.x
 
-### Prerequisites
-
-* **[Visual Studio](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer.**
-* **[VSNASM](https://github.com/ShiftMediaProject/VSNASM/)**
-* **[Python 3](https://www.python.org/downloads/)**
-* **[CMake](https://cmake.org/download/)** - ZenovaAPI currently only supports 64-bit
-
-* **Python Packages** - `pip3 install pywin32`
-
-## Changing the Mod Name
-
-**No spaces in the modname**
-
-In the files change Example to your modname
-
-**CMakeLists.txt**
-```
-set(ModName Example)
-```
-**resources/modinfo.json**
-```
-"nameId": "Example"
-```
-
-## Building
-
-* Open the CMake GUI app and point the source code to the repository download
-* For the build directory, use a build directory inside the source code directory
-* Click configure and choose Visual Studio with x64 as the optional platform
-* Click finish and then click generate
-* Open the solution file in the build folder to open your mod project
-* Once you build your files will be put into the proper mod folder in `%zenova_data%/mods/`
+The headers, signatures and addresses was taken from: https://github.com/ddf8196/RTX2Deferred
+The credits go to @ddf8196
