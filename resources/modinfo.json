@@ -1,12 +1,9 @@
 {
-    "nameId": "Template",
-    "name": "Template Name",
-    "description": "Template Description",
+    "nameId": "DeferredPipeline",
+    "name": "Deferred Pipeline Mod",
+    "description": "This mod switches the minecraft to the deferred renderer pipeline, to use shaders like YSSSE or others!\nSignature credits from: @ddf8196\nModLoader credits from: @ThePixelCoder",
     "version": "1.0.0",
     "mcversion": [
-        "1.16.40.2",
-        "1.14.60.5",
-        "1.12.1.1",
-        "1.0.0.16"
+        "1.19.51.1"
     ]
 }
