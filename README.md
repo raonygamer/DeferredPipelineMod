@@ -4,4 +4,5 @@
 This mod enables the deferred renderer for minecraft bedrock edition 1.19.x
 
 The headers, signatures and addresses was taken from: https://github.com/ddf8196/RTX2Deferred
-\nThe credits go to @ddf8196
+
+The credits go to @ddf8196
